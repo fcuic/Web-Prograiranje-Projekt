@@ -144,6 +144,10 @@ h2{
 }
 .About{
     padding-top: 25px;
+    margin-bottom: 20px;
+}
+.uspjesi{
+    margin-top: 20px;
 }
 .slika {
     display: inline-block;
@@ -209,4 +213,150 @@ h2{
     width:20px;
     position:absolute;
     transform:translate(0px,-10px);
+}
+/*Search area, ponuda vina*/
+.search{
+   
+    width:650px;
+    float:center;
+    padding:20px;
+    margin-left:50px;
+}
+.search-area{
+    margin-top:10px;
+    margin-left: 350px;
+    width:600px;
+    height:50px;
+    background:#fff;
+    border:none;
+    border-radius:10px;
+    float:left;
+    padding-left:15px;
+}
+.search-btn{
+    margin-top:10px;
+    width:100px;
+    height:50px;
+    border-radius:10px;
+    border:none;
+    color:#fff;
+    background:rgb(63, 1, 39);
+    margin-left:-100px;
+    margin-bottom: 20px;
+}
+.user-menu{
+    width:300px;
+    float:right;
+    margin-top:20px;
+}
+#slider{
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+}
+#headingblock{
+    width:100%;
+    height: auto;
+    float:left;
+    font-size:22px;
+    margin-left:60px;
+}
+#heading-block h2{
+    line-height:35px;
+    border-left:20px solid ;
+    padding-left:10px;
+}
+.catbox{
+    align-content: center;
+    margin-left:30px;
+    width:235px;
+    height:235px;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    margin-right:30px;
+    margin-bottom: 30px;
+}
+.catbox span{
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    background:white;
+    color:rgb(219,221,70);
+    display:block;
+    bottom:30px;
+    position:absolute;
+    z-index:999;
+    text-align:center;
+}
+.catbox img{
+    max-width:100%;
+    transition: all 0.5s ease;
+}
+.catbox:hover img{
+    transform:scale(1.3,1.3);
+    transition: all 0.5s ease;
+}
+/*products styling*/
+/*.prod-box{
+    width:235px;
+    height:300px;
+    overflow:hidden;
+    float:left;
+    margin:0 20 30 0;
+    position:relative;
+    margin-left:10px;
+    margin-right:10px;
+}
+.prod-box>img{
+    max-width:100%;
+    float:left;
+}
+.prod-trans{
+    background:rgba(0, 0, 0,0.6);
+    width:100%;
+    height: 78.5%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all 0.5s ease;
+}
+.prod-box:hover .prod-trans{
+    opacity:1;
+    transition:all 0.5s ease;
+}
+.prod-feature{
+    text-align:center;
+    margin-top:-150px;
+    transition:all 0.5s ease;
+}
+.prod-feature p{
+    color:rgb(219,221,70);
+    font-family:verdana;
+}
+.prod-box:hover .prod-feature{
+    margin-top:150px;
+    transition:all 0.5s ease;
+}
+.prod-feature input{
+    width:150px;
+    height:30px;
+    font-size:17px;
+}*/
+/* Shopping Cart styles*/
+.products{
+    border:1px solid #333;
+    background-color:#f1f1f1;
+    border-radius:5px;
+    padding:16px;
+    margin-bottom:20px;
+}
+.table-responsive{
+    border: 1pc solid #333;
+    background-color:white;
+    border-radius: 5px;
+    padding:16px;
 }

@@ -1,0 +1,13 @@
+<div class="uspjesi">
+        <h2>Neki od naših uspjeha na lokalnim vinskim natjecanjima</h2>
+    <div id=slider>
+        <ul class="bxslider">
+            <img src="img/11.jpg" alt="">
+            <img src="img/22.jpg" alt="">
+            <img src="img/33.jpg" alt="">
+            <img src="img/44.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+        </ul>
+    </div>
+    </div>

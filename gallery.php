@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +21,8 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Početna</a></li>
-            <li><a href="gallery.html">Galerija</a></li>
-            <li><a href="wineoffer.html">Ponuda Vina</a></li>
+            <li><a href="gallery.php">Galerija</a></li>
+            <li><a href="wineoffer.php">Ponuda Vina</a></li>
         </ul>
         <div class="burger">
             <div class="linija1"></div>

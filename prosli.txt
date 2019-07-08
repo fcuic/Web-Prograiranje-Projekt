@@ -1,0 +1,60 @@
+ <div id=headingblock>
+        <h2>Proizvodi</h2>
+        <div class="prod-container">
+        <!--Bijeli Pinot-->
+        <div class="prod-box">
+            <img src="vina/katalog/bijelipinot1.jpg" alt="">
+            <div class="prod-trans">
+            <div class="prod-feature">
+                <p>Bijeli Pinot</p>
+                <p style=" color:white;font-weight:bold">Cijena : 13 HRK</p>
+                <input type="button" value="Dodaj u košaricu">
+            </div>
+            </div>
+        </div>
+         <!--Chardonnay-->
+         <div class="prod-box">
+            <img src="vina/katalog/chardonnay1.jpg" alt="">
+            <div class="prod-trans">
+            <div class="prod-feature">
+                <p>Chardonnay</p>
+                <p style=" color:white;font-weight:bold">Cijena : 13 HRK</p>
+                <input type="button" value="Dodaj u košaricu">
+            </div>
+            </div>
+        </div>
+         <!--Frankovka-->
+         <div class="prod-box">
+            <img src="vina/katalog/frankovka1.jpg" alt="">
+            <div class="prod-trans">
+            <div class="prod-feature">
+                <p style="color:rgb(63, 1, 39)">Frankovka</p>
+                <p style=" color:white;font-weight:bold">Cijena : 13 HRK</p>
+                <input type="button" value="Dodaj u košaricu">
+            </div>
+            </div>
+        </div>
+         <!--Graševina-->
+         <div class="prod-box">
+            <img src="vina/katalog/grasevina1.jpg" alt="">
+            <div class="prod-trans">
+            <div class="prod-feature">
+                <p>Graševina</p>
+                <p style=" color:white;font-weight:bold">Cijena : 13 HRK</p>
+                <input type="button" value="Dodaj u košaricu">
+            </div>
+            </div>
+        </div>
+         <!--Zweigelt-->
+         <div class="prod-box">
+            <img src="vina/katalog/zweigelt1.jpg" alt="">
+            <div class="prod-trans">
+            <div class="prod-feature">
+                <p style="color:rgb(63, 1, 39)">Zweigelt</p>
+                <p style=" color:white;font-weight:bold">Cijena : 13 HRK</p>
+                <input type="button" value="Dodaj u košaricu">
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
