@@ -58,7 +58,7 @@ session_start();
             Grožđe se prodaje tijekom berbe(krajem kolovoza, te početkom i sredinom rujna), a vino je u prodaji tijekom cijele godine. 
             Također, od preostalog koma grožđa pravimo komovu rakiju(komovicu) koja u prosjeku ima 20 gradi. 
             Brojni kupci grožđa, vina i rakije svjedoče nesumnjivoj kvaliteti naših proizvoda i našeg napornog rada.
-            Požurite s narudžbom jednog od naših proizvoda ili nas posjetite kako biste svjedočili istinskoj ljepoti našičkog brdskog kraja &#128522;.
+            Požurite s narudžbom jednog od naših proizvoda ili nas posjetite na adresi <b>Šalapanka 24 Brezik Našički</b> kako biste svjedočili istinskoj ljepoti našičkog brdskog kraja &#128522;.
         </p>
     </div>
     <div class="uspjesi">
