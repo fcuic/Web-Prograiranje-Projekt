@@ -10,6 +10,10 @@ body{
     font-weight: 400;
     background-image: url(galerija/n.jpg);
 }
+.signuperror{
+    position:relative;
+    z-index:1;
+}
 h1{
     margin: 0em 0 0em 0;
 	font-weight: 600;

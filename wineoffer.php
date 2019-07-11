@@ -103,11 +103,8 @@
 </html>
 <script>  
 $(document).ready(function(){
-
  load_product();
-
  load_cart_data();
-    
  function load_product()
  {
   $.ajax({
@@ -179,13 +176,13 @@ $(document).ready(function(){
      });
 
      load_cart_data();
-     alert("Item has been Added into Cart");
+     alert("Dodano u košaricu!");
     }
    });
   }
   else
   {
-   alert('Select atleast one item');
+   alert('Odaberite jedan proizvod!');
   }
 
  });
@@ -193,7 +190,7 @@ $(document).ready(function(){
  $(document).on('click', '.delete', function(){
   var product_id = $(this).attr("id");
   var action = 'remove';
-  if(confirm("Are you sure you want to remove this product?"))
+  if(confirm("Želite li ukloniti proizvod iz košarice?"))
   {
    $.ajax({
     url:"action.php",
@@ -202,7 +199,7 @@ $(document).ready(function(){
     success:function()
     {
      load_cart_data();
-     alert("Item has been removed from Cart");
+     alert("Uklonili ste proizvod!");
     }
    })
   }
@@ -221,7 +218,7 @@ $(document).ready(function(){
    success:function()
    {
     load_cart_data();
-    alert("Your Cart has been clear");
+    alert("Vaša košarica je očišćena!");
    }
   });
  });

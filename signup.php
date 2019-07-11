@@ -72,11 +72,10 @@
             }
         }
         else if(isset($_GET["signup"])){
-            echo '<p class="signupsuccess">Prijava je uspješna!</p>';
+            echo '<p class="signupsuccess">Registracija je uspješna!</p>';
         }
         ?>
         <form class="form-signup" action="includes/signup.inc.php" method="POST">
-            <img src="img/user.jpg" alt="">
             <input type="text" name="uid" placeholder="Username">
             <img src="img/email.png" alt="">
             <input type="text" name="mail" placeholder="Email">
